@@ -5,7 +5,7 @@
 
 # Project info
 # ===============
-# PROJECT         := # Project name (def: Default)
+# PROJECT         := UspParty
 # VERSION         := # Version (def: 1.0.0)
 # STD_NAMESPACE   := # Project namespace for C/C++
 # GIT_REMOTE_PATH := # Remote path for git repository
@@ -35,17 +35,17 @@
 # Paths
 # =======
 # ASLIBS          := # Assembly paths
-# CLIBS           := # C paths
+# CLIBS           := -lpthread
 # CXXLIBS         := # C++ paths
-# LDLIBS          := # Linker paths
+# LDLIBS          := -lpthread
 
 # Flags
 # =======
 # CPPFLAGS        := # Precompiler Flags
 # ASFLAGS         := # Assembly Flags
-# CFLAGS          := # C Flags
+# CFLAGS          := -ansi
 # CXXFLAGS        := # C++ Flags
-# LDFLAGS         := # Linker flags
+LDFLAGS         := -lpthread
 
 # Documentation
 # ===============
